@@ -2,7 +2,7 @@
 
 A powerful Next.js application that handles rendering OCR processor response JSON files from Google Cloud Platform (GCP) Document AI service. This tool provides an interactive canvas visualization and data table for processing and analyzing extracted document content.
 
-![Demo](demo.png)
+![Demo](images/demo.png)
 
 ## 🚀 Features
 
@@ -181,14 +181,6 @@ Canvas rendering can be customized in the DocumentViewer component:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Developer
-
-**Anthony Nguyen** - [@anthoai97](https://github.com/anthoai97)
-
-- Experienced in Next.js, React, and TypeScript
-- Specialized in Document AI and OCR processing applications
-- Building modern web applications with beautiful user interfaces
 
 ## 🐛 Issues & Support
 
