@@ -1,6 +1,7 @@
 # Document AI Renderer
 
-A powerful Next.js application that handles rendering OCR processor response JSON files from Google Cloud Platform (GCP) Document AI service. This tool provides an interactive canvas visualization and data table for processing and analyzing extracted document content.
+A powerful Next.js application that handles rendering OCR processor response JSON files from Google Cloud Platform (GCP) Document AI service.
+This tool provides an interactive canvas visualization and data table for processing and analyzing extracted document content.
 
 ![Demo](images/demo.png)
 
