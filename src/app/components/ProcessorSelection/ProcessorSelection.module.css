@@ -1,0 +1,36 @@
+.processorInfo {
+  padding: 12px;
+  background-color: #f0f8ff;
+  border: 1px solid #1a73e8;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.processorLabel {
+  margin: 0;
+  color: #1a73e8;
+  font-size: 14px;
+}
+
+.fileInput {
+  display: none;
+}
+
+.uploadButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  color: #e8f0fe;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.uploadButton:hover {
+  background-color: #1557b0;
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,19 @@
+.canvasContainer {.canvasContainer {
+
+  position: relative;  position: relative;
+
+}}
+
+
+
+.canvasContainer canvas {.canvasContainer canvas {
+
+  position: absolute;  position: absolute;
+
+  border-style: solid;  border-style: solid;
+
+  top: 150px;  top: 150px;
+
+  left: 50px;  left: 50px;
+
+}}

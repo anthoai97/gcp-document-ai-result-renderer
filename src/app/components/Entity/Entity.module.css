@@ -1,0 +1,134 @@
+.entityTab {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.statsBar {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+}
+
+.stat {
+  color: #495057;
+  font-size: 14px;
+}
+
+.tableContainer {
+  max-height: 500px;
+  overflow-y: auto;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+}
+
+.entityTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.entityTable th {
+  background-color: #495057;
+  color: white;
+  padding: 12px 8px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.entityTable td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 13px;
+}
+
+.entityRow:hover {
+  background-color: #f8f9fa;
+}
+
+.indexCell {
+  width: 50px;
+  text-align: center;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.typeCell {
+  width: 200px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.contentCell {
+  max-width: 300px;
+  word-wrap: break-word;
+  color: #212529;
+}
+
+.confidenceCell {
+  width: 100px;
+  text-align: center;
+}
+
+.confidenceBadge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.confidenceBadge.high {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.confidenceBadge.medium {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.confidenceBadge.low {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.actionsCell {
+  width: 120px;
+  text-align: center;
+}
+
+.highlightBtn {
+  padding: 6px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.highlightBtn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.highlightBtn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.noData {
+  text-align: center;
+  padding: 40px 20px;
+  color: #6c757d;
+  font-style: italic;
+}

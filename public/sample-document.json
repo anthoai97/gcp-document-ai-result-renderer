@@ -1,0 +1,141 @@
+{
+  "text": "Sample Document\nThis is a test paragraph.\nThis is another paragraph on the same page.\n\nPage 2 Content\nThis paragraph is on page 2.\nAnother line on page 2.",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "paragraphs": [
+        {
+          "layout": {
+            "textAnchor": {
+              "textSegments": [
+                {
+                  "startIndex": 0,
+                  "endIndex": 15
+                }
+              ]
+            },
+            "confidence": 0.99,
+            "boundingPoly": {
+              "normalizedVertices": [
+                { "x": 0.1, "y": 0.1 },
+                { "x": 0.6, "y": 0.1 },
+                { "x": 0.6, "y": 0.15 },
+                { "x": 0.1, "y": 0.15 }
+              ]
+            }
+          }
+        },
+        {
+          "layout": {
+            "textAnchor": {
+              "textSegments": [
+                {
+                  "startIndex": 16,
+                  "endIndex": 43
+                }
+              ]
+            },
+            "confidence": 0.95,
+            "boundingPoly": {
+              "normalizedVertices": [
+                { "x": 0.1, "y": 0.2 },
+                { "x": 0.7, "y": 0.2 },
+                { "x": 0.7, "y": 0.25 },
+                { "x": 0.1, "y": 0.25 }
+              ]
+            }
+          }
+        },
+        {
+          "layout": {
+            "textAnchor": {
+              "textSegments": [
+                {
+                  "startIndex": 44,
+                  "endIndex": 87
+                }
+              ]
+            },
+            "confidence": 0.97,
+            "boundingPoly": {
+              "normalizedVertices": [
+                { "x": 0.1, "y": 0.3 },
+                { "x": 0.8, "y": 0.3 },
+                { "x": 0.8, "y": 0.35 },
+                { "x": 0.1, "y": 0.35 }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pageNumber": 2,
+      "paragraphs": [
+        {
+          "layout": {
+            "textAnchor": {
+              "textSegments": [
+                {
+                  "startIndex": 89,
+                  "endIndex": 103
+                }
+              ]
+            },
+            "confidence": 0.98,
+            "boundingPoly": {
+              "normalizedVertices": [
+                { "x": 0.1, "y": 0.1 },
+                { "x": 0.5, "y": 0.1 },
+                { "x": 0.5, "y": 0.15 },
+                { "x": 0.1, "y": 0.15 }
+              ]
+            }
+          }
+        },
+        {
+          "layout": {
+            "textAnchor": {
+              "textSegments": [
+                {
+                  "startIndex": 104,
+                  "endIndex": 134
+                }
+              ]
+            },
+            "confidence": 0.96,
+            "boundingPoly": {
+              "normalizedVertices": [
+                { "x": 0.1, "y": 0.2 },
+                { "x": 0.6, "y": 0.2 },
+                { "x": 0.6, "y": 0.25 },
+                { "x": 0.1, "y": 0.25 }
+              ]
+            }
+          }
+        },
+        {
+          "layout": {
+            "textAnchor": {
+              "textSegments": [
+                {
+                  "startIndex": 135,
+                  "endIndex": 157
+                }
+              ]
+            },
+            "confidence": 0.94,
+            "boundingPoly": {
+              "normalizedVertices": [
+                { "x": 0.1, "y": 0.3 },
+                { "x": 0.5, "y": 0.3 },
+                { "x": 0.5, "y": 0.35 },
+                { "x": 0.1, "y": 0.35 }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
